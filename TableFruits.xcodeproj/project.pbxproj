@@ -15,6 +15,7 @@
 		ACF8975F2700211900232FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF8975D2700211900232FF6 /* LaunchScreen.storyboard */; };
 		ACF8976A2700211900232FF6 /* TableFruitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF897692700211900232FF6 /* TableFruitsTests.swift */; };
 		ACF897752700211900232FF6 /* TableFruitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF897742700211900232FF6 /* TableFruitsUITests.swift */; };
+		ACF897832700271F00232FF6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF897822700271F00232FF6 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACF897702700211900232FF6 /* TableFruitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableFruitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF897742700211900232FF6 /* TableFruitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableFruitsUITests.swift; sourceTree = "<group>"; };
 		ACF897762700211900232FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF897822700271F00232FF6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ACF8975B2700211900232FF6 /* Assets.xcassets */,
 				ACF8975D2700211900232FF6 /* LaunchScreen.storyboard */,
 				ACF897602700211900232FF6 /* Info.plist */,
+				ACF897822700271F00232FF6 /* TableViewCell.swift */,
 			);
 			path = TableFruits;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF897572700211600232FF6 /* ViewController.swift in Sources */,
+				ACF897832700271F00232FF6 /* TableViewCell.swift in Sources */,
 				ACF897532700211600232FF6 /* AppDelegate.swift in Sources */,
 				ACF897552700211600232FF6 /* SceneDelegate.swift in Sources */,
 			);
